@@ -3,3 +3,40 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container {
+    max-width: 100%;
+    margin:  25px;
+    min-height: 50px;
+   
+}
+.flex {
+    display: flex;
+}
+.sec1-2 {
+    width: calc(100%/2);
+}
+.button1{
+    border: solid 1px #0061ff;
+    background-color: #0061ff;
+    color: white;
+    width: 60px;
+    margin-left: 25px;
+}
+.position{
+    justify-content: flex-start;
+    align-items: center;
+}
+.position1{
+    justify-content: space-between;
+    align-self: flex-start;
+}
+.a-f{
+    text-decoration: none;
+    color: black;
+    margin-left: 25px;
+}
+.a-fS {
+    text-decoration: none;
+    color: black;
+    margin-left: 800px;
+}
