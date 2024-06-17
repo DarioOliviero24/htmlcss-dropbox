@@ -7,14 +7,11 @@
 .container {
     max-width: 100%;
     margin:  25px;
-    min-height: 50px;
+    height: 50px;
    
 }
 .flex {
     display: flex;
-}
-.sec1-2 {
-    width: calc(100%/2);
 }
 .button{
     text-decoration: none;
@@ -41,6 +38,65 @@
 .a-fS {
     text-decoration: none;
     color: black;
-    margin-left: 800px;
+    margin-left: 770px;
 }
 /*Header Bottom */
+.Bottom{
+    background-color: #b4d0e7;
+    height: 720px;
+    width: 100%;
+}
+.section{
+    width: 80%;
+    margin: 0 auto;
+}
+.start{
+    max-width: 80%;
+    text-align: center;
+}
+
+.img-jumbo{
+    max-width: 100%;
+    max-width: 800px;
+}
+.flex-property {
+    display: flex;
+    flex-wrap: wrap;
+}
+.section {
+    padding: 150px;
+    
+}
+.perc30 {
+    width: 30%;
+}
+
+.perc50 {
+    width: 50%;
+}
+.button2{
+    color: white;
+    background-color: #0061ff;
+    border: 1px #0061ff;
+    padding: 5px 12px;
+}
+.arrows{
+    font-size: 2rem;
+}
+.h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+/*Main */
+.section2 {
+    width: 80%;
+    margin: 0 auto;
+}
+.h2{
+    margin-top: 180px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+.circle{
+    margin-left: 200px;
+}
