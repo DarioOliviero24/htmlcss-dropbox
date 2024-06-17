@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*Header top */
 .container {
     max-width: 100%;
     margin:  25px;
@@ -15,11 +16,12 @@
 .sec1-2 {
     width: calc(100%/2);
 }
-.button1{
+.button{
+    text-decoration: none;
     border: solid 1px #0061ff;
     background-color: #0061ff;
     color: white;
-    width: 60px;
+    padding: 5px 12px;
     margin-left: 25px;
 }
 .position{
@@ -35,8 +37,10 @@
     color: black;
     margin-left: 25px;
 }
+
 .a-fS {
     text-decoration: none;
     color: black;
     margin-left: 800px;
 }
+/*Header Bottom */
