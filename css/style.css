@@ -100,3 +100,48 @@
 .circle{
     margin-left: 200px;
 }
+.my-row{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    
+}
+.column{
+  width: 21%;
+  background-color:white;
+  margin: 40px;
+  color: black;
+  border: 1px solid black;
+  padding: 15px;
+  
+}
+.p-1{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    text-align: center;
+}
+.colorspan{
+    color: grey;
+}
+.spanmargin{
+    
+    margin-bottom: 5px;
+}
+.spanmarginS {
+   
+    margin-bottom: 5px;
+  
+}
+.h3{
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.button2{
+    text-decoration: none;
+    border: solid 1px #0061ff;
+    background-color: #0061ff;
+    color: white;
+    padding: 5px 12px;
+    
+}
