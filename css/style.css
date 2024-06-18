@@ -25,10 +25,7 @@
     justify-content: flex-start;
     align-items: center;
 }
-.position1{
-    justify-content: space-between;
-    align-self: flex-start;
-}
+
 .a-f{
     text-decoration: none;
     color: black;
@@ -67,6 +64,10 @@
     padding: 150px;
     
 }
+.perc25{
+    width: 25%;
+}
+
 .perc30 {
     width: 30%;
 }
@@ -74,11 +75,24 @@
 .perc50 {
     width: 50%;
 }
+
+.perc55 {
+    width: 55%;
+}
+
 .button2{
+    text-decoration: none;
     color: white;
     background-color: #0061ff;
     border: 1px #0061ff;
     padding: 5px 12px;
+}
+.buttonS {
+    text-decoration: none;
+    color: white;
+    background-color: #0061ff;
+    border: 1px #0061ff;
+    padding: 7px 65px;
 }
 .arrows{
     font-size: 2rem;
@@ -94,20 +108,20 @@
 }
 .h2{
     margin-top: 180px;
-    margin-left: 200px;
+    margin-left: 175px;
     margin-bottom: 50px;
 }
 .circle{
-    margin-left: 200px;
+    margin-left: 175px;
 }
 .my-row{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-content: center;
     
 }
 .column{
-  width: 21%;
+  width: 27%;
   background-color:white;
   margin: 40px;
   color: black;
@@ -144,4 +158,68 @@
     color: white;
     padding: 5px 12px;
     
+}
+.p-2{
+    margin-top: 30px;
+}
+.big-column {
+    width: 75%;
+    background-color: white;
+    margin: 50px;
+    margin-left: 170px;
+    color: black;
+    border: 1px solid black;
+    padding: 15px;
+}
+.position2{
+    position: relative;
+}
+.position3{
+    position: absolute;
+    top: 60px;
+    right: 5px;
+}
+.section3 {
+    width: 80%;
+    margin: 0 auto;
+}
+.img-partner{
+    display: inline;
+    max-width: 80%;
+    margin-left: 170px;
+    margin-top: 100px;
+}
+.flex-property {
+    display: flex;
+    flex-wrap: wrap;
+}
+.h3-new{
+    margin-left: 90px;
+    margin-top: 150px;
+    font-size: 1.8rem;
+}
+.p-new {
+    margin-left: 90px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+}
+
+.button3{
+    text-decoration: none;
+    
+    margin-left: 90px;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+.section4 {
+    width: 80%;
+    margin: 0 auto;
+}
+.strong{
+    font-size: 2.7rem;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 170px;
 }
