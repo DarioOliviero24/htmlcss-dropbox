@@ -223,3 +223,8 @@
     margin-bottom: 50px;
     margin-left: 170px;
 }
+.image-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
