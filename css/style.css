@@ -365,7 +365,8 @@
 }
 .HR-menu{
     max-width: 75%;
-    margin-top: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .P-menu{
     display: inline;
@@ -375,10 +376,7 @@
 }
 .I-menu{
     margin-left: 270px;
-    
-
 }
-
 
 /*Footer */
 .Foot{
